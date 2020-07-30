@@ -38,6 +38,7 @@ public class ExchangeController {
 
 
     //TODO Sorry I didn't fit in time to implement other two APIs, but the first two are working, really!
+
     @ApiOperation(value = "Cumpara valuta", response = ExchangeRateResponseDto.class)
     @RequestMapping(method = PUT, path = "/buy")
     public ResponseEntity<ExchangeRateDto> doExchange(@RequestBody ExchangeRateDto rateDto) {
