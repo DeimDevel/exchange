@@ -1,5 +1,5 @@
 # Currency exchange
-The code is written in romanian to follow test requirements. 
+The code is written partially in romanian to follow test requirements. 
 
 Prerequisites: Docker compose v1.xx
 
